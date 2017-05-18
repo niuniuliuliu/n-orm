@@ -10,9 +10,8 @@ exports.connect = (dbConfig) => {
 };
 
 exports.express = (dbConfig) => {
-    let orm = new ORM(dbConfig);
     return (req, res, next) => {
-        req.orm = orm;
+        req.orm = new ORM(dbConfig);
         next();
     }
 };
