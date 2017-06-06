@@ -1,6 +1,6 @@
 {
   "name": "n-orm",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "a node orm framework",
   "main": "index.js",
   "directories": {
