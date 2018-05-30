@@ -1,0 +1,6 @@
+*~
+.DS_Store
+*.log
+workspace.xml
+.idea/*
+node_modules
